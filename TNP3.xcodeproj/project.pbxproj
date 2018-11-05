@@ -23,7 +23,6 @@
 		BD81B01D218051E600C3DFD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD81B01B218051E600C3DFD3 /* LaunchScreen.storyboard */; };
 		BD81B028218051E600C3DFD3 /* TNP3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD81B027218051E600C3DFD3 /* TNP3Tests.swift */; };
 		BD81B033218051E600C3DFD3 /* TNP3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD81B032218051E600C3DFD3 /* TNP3UITests.swift */; };
-		BD8A6EC52190252B006626BC /* MainMapPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8A6EC42190252B006626BC /* MainMapPage.swift */; };
 		BD8EE33C2185E78C00771FBC /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8EE33B2185E78C00771FBC /* MainController.swift */; };
 		C5DCB71E6876CE58F93F0F98 /* Pods_TNP3Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9F755015B7A2EB863FB87ED /* Pods_TNP3Tests.framework */; };
 /* End PBXBuildFile section */
@@ -74,7 +73,6 @@
 		BD81B02E218051E600C3DFD3 /* TNP3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TNP3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD81B032218051E600C3DFD3 /* TNP3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TNP3UITests.swift; sourceTree = "<group>"; };
 		BD81B034218051E600C3DFD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BD8A6EC42190252B006626BC /* MainMapPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainMapPage.swift; path = "../../../../../Downloads/TNP-master/TNP/MainMapPage.swift"; sourceTree = "<group>"; };
 		BD8EE33B2185E78C00771FBC /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
 		FA4CE6277BC8116CF1C6908B /* Pods-TNP3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TNP3.release.xcconfig"; path = "Pods/Target Support Files/Pods-TNP3/Pods-TNP3.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -185,7 +183,6 @@
 		BD81B0402180582300C3DFD3 /* Pages */ = {
 			isa = PBXGroup;
 			children = (
-				BD8A6EC42190252B006626BC /* MainMapPage.swift */,
 				BD81B014218051E400C3DFD3 /* WelcomeController.swift */,
 				BD55CB2B21808CAE002233F5 /* SignInController.swift */,
 				BD40C7A52189C66800065249 /* SignUpController.swift */,
@@ -465,7 +462,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD8A6EC52190252B006626BC /* MainMapPage.swift in Sources */,
 				BD8EE33C2185E78C00771FBC /* MainController.swift in Sources */,
 				BD81B015218051E400C3DFD3 /* WelcomeController.swift in Sources */,
 				BD55CB2E21808EE8002233F5 /* TNPTextField.swift in Sources */,
