@@ -1,0 +1,41 @@
+PODS:
+  - BulletinBoard (2.0.2)
+  - GoogleMaps (2.7.0):
+    - GoogleMaps/Maps (= 2.7.0)
+  - GoogleMaps/Base (2.7.0)
+  - GoogleMaps/Maps (2.7.0):
+    - GoogleMaps/Base
+  - GooglePlaces (2.7.0):
+    - GoogleMaps/Base (= 2.7.0)
+  - IQKeyboardManagerSwift (6.2.0)
+  - SideMenu (5.0.2)
+  - SnapKit (4.0.1)
+
+DEPENDENCIES:
+  - BulletinBoard (~> 2.0)
+  - GoogleMaps
+  - GooglePlaces
+  - IQKeyboardManagerSwift
+  - SideMenu
+  - SnapKit (~> 4.0.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - BulletinBoard
+    - GoogleMaps
+    - GooglePlaces
+    - IQKeyboardManagerSwift
+    - SideMenu
+    - SnapKit
+
+SPEC CHECKSUMS:
+  BulletinBoard: a4a3022789e5202167127c3231975313c1d76c51
+  GoogleMaps: f79af95cb24d869457b1f961c93d3ce8b2f3b848
+  GooglePlaces: 3d06e6c99654545b4738ce49648745779c25f2ef
+  IQKeyboardManagerSwift: b07ccf9d8cafe993dcd6cb794eb4ba34611a0c4e
+  SideMenu: e5094f0b2e7d9609e100a90ae69025abd994f882
+  SnapKit: 0de968a9fec17499afa29683b05d0c775b6d1c29
+
+PODFILE CHECKSUM: 399218c1f732cd4e7bbd30a1a834cbab3f1857af
+
+COCOAPODS: 1.5.3
